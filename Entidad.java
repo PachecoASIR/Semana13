@@ -4,6 +4,16 @@ public class Entidad {
     private int defensa;
     private String nombre;
 
+    public Entidad() {
+    }
+
+    public Entidad(int vida, int ataque, int defensa, String nombre) {
+        this.nombre=nombre;
+        this.vida=vida;
+        this.ataque=ataque;
+        this.defensa=defensa;
+    }
+
     public int getVida() {
         return vida;
     }
